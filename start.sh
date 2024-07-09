@@ -1,11 +1,11 @@
 #!/bin/bash  
-export UUID=${UUID:-'bc97f674-c578-4940-9234-0a1da46041b9'}   # 节点UUID
-export NEZHA_SERVER=${NEZHA_SERVER:-'nz.abc.com'}             # 哪吒客户端域名或ip,哪吒3个变量不全不运行
-export NEZHA_PORT=${NEZHA_PORT:-'5555'}                       # 哪吒端口为{443,8443,2053,2083,2087,2096}其中之一时自动开启tls
-export NEZHA_KEY=${NEZHA_KEY:-''}                             # 哪吒客户端密钥
-export ARGO_DOMAIN=${ARGO_DOMAIN:-''}                         # 固定隧道域名，留空即启用临时隧道
-export ARGO_AUTH=${ARGO_AUTH:-''}                             # 固定隧道token或json
-export CFIP=${CFIP:-'www.visa.com.tw'}                        # argo节点优选域名
+export UUID=${UUID:-'5277bc79-46a2-4640-ae92-d27c0813fd7e'}   # 节点UUID
+export NEZHA_SERVER=${NEZHA_SERVER:-'nezha.hnhp.eu.org'}             # 哪吒客户端域名或ip,哪吒3个变量不全不运行
+export NEZHA_PORT=${NEZHA_PORT:-'443'}                       # 哪吒端口为{443,8443,2053,2083,2087,2096}其中之一时自动开启tls
+export NEZHA_KEY=${NEZHA_KEY:-'ZbrkJc383GMrqvQt1r'}                             # 哪吒客户端密钥
+export ARGO_DOMAIN=${ARGO_DOMAIN:-'eyJhIjoiMzk0ZWIyM2M4Y2RjMWYyMTZkNDAxZjY3MWEyN2FlNTQiLCJ0IjoiMjA1MDdiYjUtODQwMi00NTUzLWE0ZDAtNWNlZmVlOGJiZDQ0IiwicyI6IlVYRUtUZWo1dzBjR2NpM0trekJ3a0RqWHJocTNDTUFvakFZMFJvN1Yxemc9In0='}                         # 固定隧道域名，留空即启用临时隧道
+export ARGO_AUTH=${ARGO_AUTH:-'sg.vcr.us.kg'}                             # 固定隧道token或json
+export CFIP=${CFIP:-'www.visa.com.sg'}                        # argo节点优选域名
 export CFPORT=${CFPORT:-'8443'}                               # argo节点端口
 export ARGO_PORT=${ARGO_PORT:-'8001'}                # argo端口 使用固定隧道token需和cf后台设置对应
 export SERVER_PORT="${SERVER_PORT:-${PORT:-7860}}"   # Hy2 端口，自动获取玩具端口，不用填写
